@@ -806,7 +806,7 @@ import control.NonFatal
 ```conf
 OrganizeImports {
   groups = ["re:javax?\\.", "scala.", "*"]
-  groupSeparately = [ByNameImplicits]
+  groupSeparately = [Relative, ByNameImplicits]
 }
 ```
 
